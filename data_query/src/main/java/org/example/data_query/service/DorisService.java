@@ -206,6 +206,7 @@ public class DorisService {
             default:
                 throw new IllegalArgumentException("Unsupported aggregation type: " + aggregationType);
         }
+        System.out.println(baseQuery);
         return baseQuery;
     }
 
